@@ -1,0 +1,104 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Rmain {
+  min-height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RContainer {
+  text-align: center;
+}
+
+.ReviewCard {
+  border-radius: 4px;
+  box-shadow: 0 0 10px #999;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 450px;
+}
+
+.Rprofile {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 6px -6px #3b5998;
+}
+
+.ReviewerPic {
+  margin: 0;
+  padding: 0;
+  object-fit: center;
+}
+
+.quote-icon {
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #3b5998;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.ReviewerName {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+
+.Occupation {
+  font-size: 14px;
+  color: #3b5998;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.Rarrow {
+  display: inline-block;
+  font-size: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #3b5998;
+}
+
+.Rarrow:active {
+  border: 2px solid black;
+}
+
+.Surprise {
+  margin-top: 10px;
+  background-color: aliceblue;
+  color: #3b5998;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.Surprise:hover {
+  background-color: #3b5998;
+  color: white;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.ReviewContent {
+  margin-top: 10px;
+  font-size: 13px;
+}

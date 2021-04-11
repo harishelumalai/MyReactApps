@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  color: white;
+}
+
+.App ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.applist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  padding: 5px;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.appcard {
+  background-color: azure;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+}

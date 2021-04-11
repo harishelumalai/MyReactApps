@@ -1,0 +1,5 @@
+[
+  { "name": "Birthday Reminder", "url": "/birthdayreminder" },
+  { "name": "Reviews Viewer", "url": "/reviewsviewer" },
+  { "name": "Third App", "url": "/thirdapp" }
+]
